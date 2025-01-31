@@ -31,4 +31,8 @@ func main() {
 	fmt.Println(u.Name, u.Email)
 	users, _ := models.GetAllUsers()
 	fmt.Println(users[0])
+
+	u.DeleteUser()
+	u, _ = models.GetUser(1)
+	fmt.Println(u)
 }
