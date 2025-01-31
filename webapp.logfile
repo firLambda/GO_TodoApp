@@ -3,3 +3,4 @@
 2025/01/31 12:20:46 users.go:33: sql: converting argument $1 type: unsupported type func() uuid.UUID, a func
 2025/01/31 12:22:21 users.go:33: no such table: users
 2025/01/31 12:24:56 users.go:33: no such table: users
+2025/01/31 15:32:43 users.go:66: near "where": syntax error
