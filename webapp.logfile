@@ -7,3 +7,5 @@
 2025/02/02 16:17:32 todos.go:39: sql: Scan error on column index 0, name "id": destination not a pointer
 2025/02/02 16:32:31 todos.go:63: near "from": syntax error
 2025/02/02 16:32:46 todos.go:63: near "from": syntax error
+2025/02/02 18:16:02 todos.go:33: sql: no rows in result set
+2025/02/02 18:17:20 todos.go:33: sql: no rows in result set

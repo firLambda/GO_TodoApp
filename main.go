@@ -52,10 +52,13 @@ func main() {
 	// 	fmt.Println(v)
 	// }
 
-	t, _ := models.GetTodo(1)
-	t.Content = "Update Todo"
-	t.UpdateTodo()
+	t, _ := models.GetTodo(9)
+
 	u, _ := models.GetUser(t.UserID)
 	fmt.Println(u.GetAllTodosByUser())
+
+	t, _ = models.GetTodo(9)
+	t.DeleteTodo()
+	fmt.Println(models.GetAllTodos())
 
 }
